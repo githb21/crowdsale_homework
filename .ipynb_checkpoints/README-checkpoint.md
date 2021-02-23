@@ -14,7 +14,7 @@ Using Remix, I created a file called `PupperCoin.sol` and created a standard `ER
 
 ### PupperCoinCrowdsale
 
-* [`Crowdsale.sol`](Code/CrowdSale.sol)
+* [`CrowdSale.sol`](Code/CrowdSale.sol)
 
 The PupperCoin (PUPC) will be minted through a `Crowdsale` contract that is leveraged from the OpenZeppelin Solidity library. This crowdsale contract will manage the entire process, allowing users to send ETH and get back PUPC. It inherits `Crowdsale`, `CappedCrowdsale`, `TimedCrowdsale`, `RefundablePostDeliveryCrowdsale`, and `MintedCrowdsale`.
 
@@ -44,7 +44,7 @@ Deploy `PupperCoinSale` Contract with `token_sale_address` in the `At_Address` s
 
 ### PupperCoin
 
-Deploy `upperCoin`Contract with `token_address` in the `At_Address` section. You should have found the `token_address` under `PupperCoinSaleDeployer` deployed contract
+Deploy `PupperCoin`Contract with `token_address` in the `At_Address` section. You should have found the `token_address` under `PupperCoinSaleDeployer` deployed contract
 
 ![`PUPC_token_address`](Images/PUPC_token_address.PNG)
 
@@ -58,7 +58,7 @@ Open the deployed `PupperCoinSale` contract, put in your `beneficiary` address u
 
 Once the goal is reached and crowsale is closed, you can finalize the crowdsale
 
-![`finalized`](Images/finalzed.PNG)
+![`finalized`](Images/finalized.PNG)
 
 You can then withdraw your token PUPC to your own wallet
 
