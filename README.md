@@ -28,25 +28,25 @@ For the purpose of testing, I have set the `close` time to be `now + 5 minutes`,
 
 Open Metamask, change the network to Kovan. Pre-fund the address to ensure successful deployment of the contract as it would require some Gas. Deploy the first contract `Puppercoin`. Paramaters required for deployment: `name`, `symbol`, `initial_supply`.
 
-[`deploy_PupperCoin`](Images/deploy_PupperCoin.PNG)
+![`deploy_PupperCoin`](Images/deploy_PupperCoin.PNG)
 
 ### PupperCoinSaleDeployer
 
 Next, deploy `PupperCoinSaleDeployer`, parameters required: `name`, `symbol`, `wallet`, `goal`
 
-[`deploy_PupperCoinSaleDeployer`](Images/deploy_PupperCoinSaleDeployer.PNG)
+![`deploy_PupperCoinSaleDeployer`](Images/deploy_PupperCoinSaleDeployer.PNG)
 
 ### PupperCoinSale
 
 Deploy `PupperCoinSale` Contract with `token_sale_address` in the `At_Address` section. You should have found the `token_sale_address` under `PupperCoinSaleDeployer` deployed contract
 
-[`deploy_PupperCoinSale`](Images/deploy_PupperCoinSale.PNG)
+![`deploy_PupperCoinSale`](Images/deploy_PupperCoinSale.PNG)
 
 ### PupperCoin
 
 Deploy `upperCoin`Contract with `token_address` in the `At_Address` section. You should have found the `token_address` under `PupperCoinSaleDeployer` deployed contract
 
-[`PUPC_token_address`](Images/PUPC_token_address.PNG)
+![`PUPC_token_address`](Images/PUPC_token_address.PNG)
 
 ---
 
@@ -54,17 +54,17 @@ Deploy `upperCoin`Contract with `token_address` in the `At_Address` section. You
 
 Open the deployed `PupperCoinSale` contract, put in your `beneficiary` address under `buyTokens`
 
-[`buy_token`](Images/buy_token.PNG)
+![`buy_token`](Images/buy_token.PNG)
 
 Once the goal is reached and crowsale is closed, you can finalize the crowdsale
 
-[`finalized`](Images/finalzed.PNG)
+![`finalized`](Images/finalzed.PNG)
 
 You can then withdraw your token PUPC to your own wallet
 
 On Metamask, you cann add Tokens by adding the `token_address`, the `name` and `decimal` should auto-populate
 
-[`PUPC_balance`](Images/PUPC_balance.PNG)
+![`PUPC_balance`](Images/PUPC_balance.PNG)
 
 ---
 
@@ -72,11 +72,11 @@ On Metamask, you cann add Tokens by adding the `token_address`, the `name` and `
 
 You can find the PUPC token on Etherscan by inputting the `token_address`
 
-[`PUPC_etherscan`](Images/PUPC_etherscan.PNG)
+![`PUPC_etherscan`](Images/PUPC_etherscan.PNG)
 
 You can also see the wallet that owns the tokens, i.e. the wallet that participates in the crowdsale
 
-[`PUPC_holder`](Images/PUPC_holder.PNG)
+![`PUPC_holder`](Images/PUPC_holder.PNG)
 
 ---
 
