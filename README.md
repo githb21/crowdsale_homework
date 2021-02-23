@@ -56,7 +56,7 @@ Open the deployed `PupperCoinSale` contract, put in your `beneficiary` address u
 
 ![`buy_token`](Images/buy_token.PNG)
 
-Once the goal is reached and crowsale is closed, you can `finalize` the crowdsale under the deployed `PupperCoinSale` contract
+Once the goal is reached and crowdsale is closed, you can `finalize` the crowdsale under the deployed `PupperCoinSale` contract
 
 ![`finalized`](Images/finalized.PNG)
 
