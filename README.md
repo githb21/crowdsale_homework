@@ -62,7 +62,7 @@ Once the goal is reached and crowdsale is closed, you can `finalize` the crowdsa
 
 You can then `withdraw` your token PUPC to your own wallet under the deployed `PupperCoinSale` contract
 
-On Metamask, you cann add Tokens by adding the `token_address`, the `name` and `decimal` should auto-populate
+On Metamask, you can add Tokens by adding the `token_address`, the `name` and `decimal` should auto-populate
 
 ![`PUPC_balance`](Images/PUPC_balance.PNG)
 
