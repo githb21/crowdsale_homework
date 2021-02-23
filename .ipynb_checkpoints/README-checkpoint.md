@@ -14,7 +14,7 @@ Using Remix, I created a file called `PupperCoin.sol` and created a standard `ER
 
 ### PupperCoinCrowdsale
 
-* [`Crowdsale.sol`](Code/Crowdsale.sol)
+* [`Crowdsale.sol`](Code/CrowdSale.sol)
 
 The PupperCoin (PUPC) will be minted through a `Crowdsale` contract that is leveraged from the OpenZeppelin Solidity library. This crowdsale contract will manage the entire process, allowing users to send ETH and get back PUPC. It inherits `Crowdsale`, `CappedCrowdsale`, `TimedCrowdsale`, `RefundablePostDeliveryCrowdsale`, and `MintedCrowdsale`.
 
