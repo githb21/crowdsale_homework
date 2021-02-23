@@ -56,11 +56,11 @@ Open the deployed `PupperCoinSale` contract, put in your `beneficiary` address u
 
 ![`buy_token`](Images/buy_token.PNG)
 
-Once the goal is reached and crowsale is closed, you can finalize the crowdsale
+Once the goal is reached and crowsale is closed, you can `finalize` the crowdsale under the deployed `PupperCoinSale` contract
 
 ![`finalized`](Images/finalized.PNG)
 
-You can then withdraw your token PUPC to your own wallet
+You can then `withdraw` your token PUPC to your own wallet under the deployed `PupperCoinSale` contract
 
 On Metamask, you cann add Tokens by adding the `token_address`, the `name` and `decimal` should auto-populate
 
